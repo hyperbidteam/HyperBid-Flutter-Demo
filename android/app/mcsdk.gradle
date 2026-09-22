@@ -1,0 +1,211 @@
+// HyperBid Flutter SDK — Android core SDK + Ad Network adapters.
+//
+// This is the "Gradle reference code" generated from the HyperBid SDK
+// Download Center (https://portal.hyperbid.com/m/sdk/download).
+// Reference: SDK-Import-and-Initialization.md §4.1
+//
+// Regenerate from the Download Center to change SDK versions or the set of
+// integrated Ad Networks. Applied from android/app/build.gradle.kts via
+// `apply(from = "mcsdk.gradle")`.
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    //Anythink
+    maven {
+        url "https://jfrog.anythinktech.com/artifactory/overseas_sdk"
+    }
+    maven {
+        url "https://jfrog.anythinktech.com/artifactory/debugger"
+    }
+
+    //Ironsource
+    maven {
+        url "https://android-sdk.is.com/"
+    }
+
+    //Pubnative
+    maven {
+        url "https://verve.jfrog.io/artifactory/verve-gradle-release"
+    }
+
+    //Smaato
+    maven {
+        url "https://s3.amazonaws.com/smaato-sdk-releases/"
+    }
+
+    //Pangle
+    maven {
+        url "https://artifact.bytedance.com/repository/pangle"
+    }
+
+    //Mintegral
+    maven {
+        url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"
+    }
+
+    //BidMachine
+    maven {
+        url "https://artifactory.bidmachine.io/bidmachine"
+    }
+
+    //Chartboost
+    maven {
+        url "https://cboost.jfrog.io/artifactory/chartboost-ads"
+    }
+    maven {
+        url "https://cboost.jfrog.io/artifactory/chartboost-mediation"
+    }
+    maven {
+        url "https://cboost.jfrog.io/artifactory/chartboost-core"
+    }
+
+}
+dependencies {
+    //MCSDK
+    api "com.hyperbid.tools:mcsdk:4.1.14"
+
+    //Anythink
+    api "com.hyperbid.tools:mcsdk-adapter-topon:6.6.22.0"
+    api "com.anythink.sdk:core-tpn:6.6.22"
+    api "com.anythink.sdk:adapter-tpn-sdm:6.5.75.1.0"
+    api "com.smartdigimkttech.sdk:smartdigimkttech-sdk:6.5.75"
+    api "com.anythink.sdk:debugger-ui-tpn:1.1.3"
+
+    //Max
+    api "com.hyperbid.tools:mcsdk-adapter-max:13.6.3.0"
+    api "com.applovin:applovin-sdk:13.6.3"
+
+    //Admob
+    api "com.hyperbid.tools:mcsdk-adapter-admob:25.4.0.1"
+    api "com.google.android.gms:play-services-ads:25.4.0"
+
+    //Moloco
+    api "com.moloco.sdk:moloco-sdk:4.8.1"
+    api "com.anythink.sdk:adapter-tpn-moloco:4.8.1.1.0"
+    api "com.applovin.mediation:moloco-adapter:4.8.1.0"
+
+    //Vungle
+    api "com.vungle:vungle-ads:7.7.3"
+    api "com.google.android.gms:play-services-basement:18.1.0"
+    api "com.google.android.gms:play-services-ads-identifier:18.0.1"
+    api "com.anythink.sdk:adapter-tpn-vungle:7.7.3.1.0"
+    api "com.applovin.mediation:vungle-adapter:7.7.3.1"
+    api "com.google.ads.mediation:vungle:7.7.3.0"
+
+    //UnityAds
+    api "com.unity3d.ads:unity-ads:4.18.0"
+    api "com.anythink.sdk:adapter-tpn-unityads:4.18.0.1.0"
+    api "com.applovin.mediation:unityads-adapter:4.18.0.0"
+    api "com.google.ads.mediation:unity:4.18.0.0"
+
+    //Ironsource
+    api "com.unity3d.ads-mediation:mediation-sdk:9.2.0"
+    api "com.google.android.gms:play-services-appset:16.0.2"
+    api "com.google.android.gms:play-services-ads-identifier:18.0.1"
+    api "com.google.android.gms:play-services-basement:18.1.0"
+    api "com.anythink.sdk:adapter-tpn-ironsource:9.2.0.1.1"
+    api "com.applovin.mediation:ironsource-adapter:9.2.0.0.0"
+    api "com.google.ads.mediation:ironsource:9.2.0.0"
+
+    //Bigo
+    api "com.bigossp:bigo-ads:5.9.0"
+    api "com.anythink.sdk:adapter-tpn-bigo:5.9.0.1.0"
+    api "com.applovin.mediation:bigoads-adapter:5.9.0.0"
+
+    //Pubnative
+    api "net.pubnative:hybid.sdk:3.8.1"
+    api "com.anythink.sdk:adapter-tpn-pubnative:3.8.1.1.0"
+    api "com.applovin.mediation:verve-adapter:3.8.1.0"
+
+    //Smaato
+    api "com.smaato.android.sdk:smaato-sdk:22.7.2"
+    api "com.smaato.android.sdk:smaato-sdk-banner:22.7.2"
+    api "com.smaato.android.sdk:smaato-sdk-interstitial:22.7.2"
+    api "com.smaato.android.sdk:smaato-sdk-rewarded-ads:22.7.2"
+    api "com.smaato.android.sdk:smaato-sdk-native:22.7.2"
+    api "com.smaato.android.sdk:smaato-sdk-in-app-bidding:22.7.2"
+    api "com.google.android.gms:play-services-ads-identifier:18.0.1"
+    api "com.anythink.sdk:adapter-tpn-smaato:22.7.2.1.2"
+    api "com.applovin.mediation:smaato-adapter:22.7.2.3"
+
+    //Pangle
+    api "com.pangle.global:pag-sdk:8.1.0.3"
+    api "com.google.android.gms:play-services-ads-identifier:18.2.0"
+    api "com.anythink.sdk:adapter-tpn-pangle:8.1.0.3.1.0"
+    api "com.applovin.mediation:bytedance-adapter:8.1.0.3.0"
+    api "com.google.ads.mediation:pangle:8.1.0.3.0"
+
+    //Facebook
+    api "com.facebook.android:audience-network-sdk:6.21.0"
+    api "androidx.annotation:annotation:1.0.0"
+    api "com.anythink.sdk:adapter-tpn-facebook:6.21.0.1.1"
+    api "com.applovin.mediation:facebook-adapter:6.21.0.0"
+    api "com.google.ads.mediation:facebook:6.21.0.3"
+
+    //Admob
+    api "com.google.android.gms:play-services-ads:25.4.0"
+    api "com.anythink.sdk:adapter-tpn-admob:25.4.0.1.0"
+    api "com.applovin.mediation:google-adapter:25.4.0.0"
+    api "com.applovin.mediation:google-ad-manager-adapter:25.4.0.0"
+
+    //Inmobi
+    api "com.inmobi.monetization:inmobi-ads-kotlin:11.1.1"
+    api "com.anythink.sdk:adapter-tpn-inmobi:11.1.1.1.1"
+    api "com.applovin.mediation:inmobi-adapter:11.1.1.0"
+    api "com.google.ads.mediation:inmobi:11.1.1.1"
+
+    //AppLovin
+    api "com.applovin:applovin-sdk:13.6.3"
+    api "com.anythink.sdk:adapter-tpn-applovin:13.6.3.1.0"
+    api "com.google.ads.mediation:applovin:13.6.3.0"
+
+    //Mintegral
+    api "com.mbridge.msdk.oversea:mbridge_android_sdk:17.1.61"
+    api "androidx.recyclerview:recyclerview:1.1.0"
+    api "com.anythink.sdk:adapter-tpn-mintegral:17.1.61.1.0"
+    api "com.applovin.mediation:mintegral-adapter:17.1.61.0"
+    api "com.google.ads.mediation:mintegral:17.1.61.0"
+
+    //BidMachine
+    api "io.bidmachine:ads:3.7.0"
+    api "com.anythink.sdk:adapter-tpn-bidmachine:3.7.0.1.0"
+    api "com.applovin.mediation:bidmachine-adapter:3.7.0.0"
+
+    //Chartboost
+    api "com.chartboost:chartboost-sdk:9.12.0"
+    api "com.chartboost:chartboost-mediation-sdk:5.3.0"
+    api "com.chartboost:chartboost-core-sdk:1.1.0"
+    api "com.chartboost:chartboost-mediation-adapter-chartboost:5.9.11.0.0"
+    api "androidx.media3:media3-exoplayer:1.4.1"
+    api "androidx.media3:media3-ui:1.4.1"
+    api "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0"
+    api "com.squareup.okhttp3:logging-interceptor:4.11.0"
+    api "com.squareup.okhttp3:okhttp:4.12.0"
+    api "com.squareup.retrofit2:converter-scalars:2.9.0"
+    api "com.squareup.retrofit2:retrofit:2.9.0"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    api "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+    api "com.anythink.sdk:adapter-tpn-chartboost:9.12.0.1.0"
+    api "com.applovin.mediation:chartboost-adapter:9.12.0.0"
+    api "com.google.ads.mediation:chartboost:9.12.0.0"
+
+    //Mytarget
+    api "com.my.target:mytarget-sdk:5.27.1"
+    api "com.anythink.sdk:adapter-tpn-mytarget:5.27.1.1.0"
+    api "com.applovin.mediation:mytarget-adapter:5.27.1.2"
+
+    //Yandex
+    api "com.yandex.android:mobileads:8.0.0"
+    api "com.anythink.sdk:adapter-tpn-yandex:8.0.0.1.0"
+    api "com.applovin.mediation:yandex-adapter:8.0.0.0"
+
+    //Fyber
+    api "com.fyber:marketplace-sdk:8.4.2"
+    api "com.google.android.gms:play-services-ads-identifier:18.0.1"
+    api "com.anythink.sdk:adapter-tpn-fyber:8.4.2.1.1"
+    api "com.applovin.mediation:fyber-adapter:8.4.2.0"
+    api "com.google.ads.mediation:fyber:8.4.2.2"
+
+}

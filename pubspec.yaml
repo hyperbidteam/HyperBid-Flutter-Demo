@@ -1,0 +1,31 @@
+name: hyperbid_flutter_demo
+description: "HyperBid Flutter SDK integration demo."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HyperBid Flutter SDK.
+  mc_sdk: ^1.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and place the exported strategy files here to enable the
+  # optional Preset Strategy feature (see McSdk.setLocalStrategyAssetPath).
+  # assets:
+  #   - assets/LocalStrategy/

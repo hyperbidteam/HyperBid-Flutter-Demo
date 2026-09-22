@@ -1,0 +1,626 @@
+PODS:
+  - Ads-Global (8.1.0.6):
+    - Ads-Global/BUAdSDK (= 8.1.0.6)
+  - Ads-Global/BUAdSDK (8.1.0.6):
+    - Ads-Global/PangleSDK
+    - Ads-Global/TikTokBusinessSDK
+  - Ads-Global/PangleSDK (8.1.0.6)
+  - Ads-Global/TikTokBusinessSDK (8.1.0.6)
+  - AppLovinMediationBidMachineAdapter (3.7.1.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - BidMachine (= 3.7.1)
+  - AppLovinMediationBigoAdsAdapter (5.2.0.0):
+    - AppLovinSDK (>= 12.4.1)
+    - BigoADS (= 5.2.0)
+  - AppLovinMediationByteDanceAdapter (8.1.0.6.0):
+    - Ads-Global (= 8.1.0.6)
+    - AppLovinSDK (>= 13.0.0)
+  - AppLovinMediationChartboostAdapter (9.11.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - ChartboostSDK (= 9.11.0)
+  - AppLovinMediationFacebookAdapter (6.21.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - FBAudienceNetwork (= 6.21.1)
+  - AppLovinMediationFyberAdapter (8.4.7.0):
+    - AppLovinSDK (>= 13.0.0)
+    - Fyber_Marketplace_SDK (= 8.4.7)
+  - AppLovinMediationGoogleAdapter (13.4.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - Google-Mobile-Ads-SDK (= 13.4.0)
+  - AppLovinMediationGoogleAdManagerAdapter (13.4.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - Google-Mobile-Ads-SDK (= 13.4.0)
+  - AppLovinMediationInMobiAdapter (11.1.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - InMobiSDK (= 11.1.1)
+  - AppLovinMediationIronSourceAdapter (9.3.0.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - IronSourceSDK/Ads (= 9.3.0.0)
+  - AppLovinMediationLineAdapter (3.0.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - FiveAd (= 3.0.1)
+  - AppLovinMediationMintegralAdapter (8.1.3.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - MintegralAdSDK (= 8.1.3)
+    - MintegralAdSDK/BidSplashAd (= 8.1.3)
+  - AppLovinMediationMolocoAdapter (4.8.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - MolocoSDKiOS (= 4.8.0)
+  - AppLovinMediationMyTargetAdapter (5.43.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - myTargetSDK (= 5.43.0)
+  - AppLovinMediationUnityAdsAdapter (4.17.0.0):
+    - AppLovinSDK (>= 13.0.0)
+    - UnityAds (= 4.17.0)
+  - AppLovinMediationVerveAdapter (3.8.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - HyBid (= 3.8.1)
+  - AppLovinMediationVungleAdapter (7.7.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - VungleAds (= 7.7.1)
+  - AppLovinMediationYandexAdapter (8.2.0.0):
+    - AppLovinSDK (>= 11.4.0)
+    - YandexMobileAds (= 8.2.0)
+  - AppLovinSDK (13.6.0)
+  - AppMetricaAdSupport (6.4.2):
+    - AppMetricaCore (= 6.4.2)
+    - AppMetricaCoreExtension (= 6.4.2)
+  - AppMetricaCore (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaEncodingUtils (= 6.4.2)
+    - AppMetricaFMDB (= 6.4.2)
+    - AppMetricaHostState (= 6.4.2)
+    - AppMetricaIdentifiers (= 6.4.2)
+    - AppMetricaKeychain (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+    - AppMetricaNetwork (= 6.4.2)
+    - AppMetricaPlatform (= 6.4.2)
+    - AppMetricaProtobuf (= 6.4.2)
+    - AppMetricaProtobufUtils (= 6.4.2)
+    - AppMetricaStorageUtils (= 6.4.2)
+  - AppMetricaCoreExtension (6.4.2):
+    - AppMetricaCore (= 6.4.2)
+    - AppMetricaStorageUtils (= 6.4.2)
+  - AppMetricaCoreUtils (6.4.2):
+    - AppMetricaLog (= 6.4.2)
+  - AppMetricaEncodingUtils (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+    - AppMetricaPlatform (= 6.4.2)
+  - AppMetricaFMDB (6.4.2)
+  - AppMetricaHostState (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+  - AppMetricaIdentifiers (6.4.2):
+    - AppMetricaKeychain (= 6.4.2)
+    - AppMetricaLogSwift (= 6.4.2)
+    - AppMetricaPlatform (= 6.4.2)
+    - AppMetricaStorageUtils (= 6.4.2)
+    - AppMetricaSynchronization (= 6.4.2)
+  - AppMetricaIDSync (6.4.2):
+    - AppMetricaCore (= 6.4.2)
+    - AppMetricaCoreExtension (= 6.4.2)
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+    - AppMetricaNetwork (= 6.4.2)
+    - AppMetricaPlatform (= 6.4.2)
+    - AppMetricaStorageUtils (= 6.4.2)
+  - AppMetricaKeychain (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+    - AppMetricaStorageUtils (= 6.4.2)
+  - AppMetricaLibraryAdapter (6.4.2):
+    - AppMetricaCore (= 6.4.2)
+    - AppMetricaCoreExtension (= 6.4.2)
+  - AppMetricaLog (6.4.2)
+  - AppMetricaLogSwift (6.4.2):
+    - AppMetricaLog (= 6.4.2)
+  - AppMetricaNetwork (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+    - AppMetricaPlatform (= 6.4.2)
+  - AppMetricaPlatform (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+  - AppMetricaProtobuf (6.4.2)
+  - AppMetricaProtobufUtils (6.4.2):
+    - AppMetricaProtobuf (= 6.4.2)
+  - AppMetricaStorageUtils (6.4.2):
+    - AppMetricaCoreUtils (= 6.4.2)
+    - AppMetricaLog (= 6.4.2)
+  - AppMetricaSynchronization (6.4.2):
+    - AppMetricaLogSwift (= 6.4.2)
+  - ATOM-Standalone (3.9.0)
+  - BidMachine (3.7.1):
+    - BidMachine/Static (= 3.7.1)
+  - BidMachine/Static (3.7.1):
+    - OMSDK_Appodeal/Static (= 1.6.3)
+  - BigoADS (5.2.0)
+  - ChartboostCoreSDK (1.1.0)
+  - ChartboostMediationAdapterChartboost (5.9.11.0.0):
+    - ChartboostMediationSDK (~> 5.0)
+    - ChartboostSDK (~> 9.11.0)
+  - ChartboostMediationSDK (5.4.0):
+    - ChartboostCoreSDK (~> 1.0)
+  - ChartboostSDK (9.11.0)
+  - FBAudienceNetwork (6.21.1)
+  - FiveAd (3.0.1)
+  - Flutter (1.0.0)
+  - Fyber_Marketplace_SDK (8.4.7)
+  - Google-Mobile-Ads-SDK (13.4.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationAppLovin (13.6.0.0):
+    - AppLovinSDK (= 13.6.0)
+    - Google-Mobile-Ads-SDK (~> 13.0)
+  - GoogleMobileAdsMediationChartboost (9.11.0.3):
+    - ChartboostSDK (= 9.11.0)
+    - Google-Mobile-Ads-SDK (~> 13.0)
+  - GoogleMobileAdsMediationFacebook (6.21.1.1.1):
+    - FBAudienceNetwork (= 6.21.1)
+    - Google-Mobile-Ads-SDK (~> 13.4)
+  - GoogleMobileAdsMediationFyber (8.4.7.1.1):
+    - Fyber_Marketplace_SDK (= 8.4.7)
+    - Google-Mobile-Ads-SDK (~> 13.3)
+  - GoogleMobileAdsMediationInMobi (11.1.1.1):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - InMobiSDK (= 11.1.1)
+  - GoogleMobileAdsMediationIronSource (9.3.0.0.1):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - IronSourceSDK (= 9.3.0.0)
+  - GoogleMobileAdsMediationLine (3.0.1.2):
+    - FiveAd (= 3.0.1)
+    - Google-Mobile-Ads-SDK (~> 13.3)
+  - GoogleMobileAdsMediationMintegral (8.1.3.0):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - MintegralAdSDK/All (= 8.1.3)
+  - GoogleMobileAdsMediationMyTarget (5.43.0.0.1):
+    - Google-Mobile-Ads-SDK (~> 13.3)
+    - myTargetSDK (= 5.43.0)
+  - GoogleMobileAdsMediationPangle (8.1.0.6.0):
+    - Ads-Global (= 8.1.0.6)
+    - Google-Mobile-Ads-SDK (~> 13.3)
+  - GoogleMobileAdsMediationUnity (4.17.0.0):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - UnityAds (= 4.17.0)
+  - GoogleMobileAdsMediationVungle (7.7.1.0):
+    - Google-Mobile-Ads-SDK (~> 13.0)
+    - VungleAds (= 7.7.1)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - HyBid (3.8.1):
+    - HyBid/ATOM (= 3.8.1)
+    - HyBid/Banner (= 3.8.1)
+    - HyBid/Core (= 3.8.1)
+    - HyBid/FullScreen (= 3.8.1)
+    - HyBid/Native (= 3.8.1)
+    - HyBid/RewardedVideo (= 3.8.1)
+  - HyBid/ATOM (3.8.1):
+    - ATOM-Standalone
+    - HyBid/Core
+  - HyBid/Banner (3.8.1):
+    - HyBid/Core
+  - HyBid/Core (3.8.1)
+  - HyBid/FullScreen (3.8.1):
+    - HyBid/Core
+  - HyBid/Native (3.8.1):
+    - HyBid/Core
+  - HyBid/RewardedVideo (3.8.1):
+    - HyBid/Core
+  - HyperbidToolsMCAdmobAdapter (13.4.0.0):
+    - Google-Mobile-Ads-SDK (= 13.4.0)
+    - HyperbidToolsMCSDK (>= 3.1)
+  - HyperbidToolsMCMaxAdapter (13.6.0.2):
+    - AppLovinSDK (= 13.6.0)
+    - HyperbidToolsMCSDK (>= 3.1)
+  - HyperbidToolsMCSDK (3.9.10)
+  - HyperbidToolsMCToponAdapter (6.5.73.0):
+    - HyperbidToolsMCSDK (>= 3.1)
+    - TPNiOS (= 6.5.73)
+  - InMobiSDK (11.1.1)
+  - IronSourceAdQualitySDK (9.2.1)
+  - IronSourceSDK (9.3.0.0):
+    - IronSourceSDK/AdQuality (= 9.3.0.0)
+    - IronSourceSDK/Ads (= 9.3.0.0)
+  - IronSourceSDK/AdQuality (9.3.0.0):
+    - IronSourceAdQualitySDK (~> 9.2.1)
+  - IronSourceSDK/Ads (9.3.0.0)
+  - mc_sdk (1.1.0):
+    - Flutter
+    - HyperbidToolsMCSDK (= 3.9.10)
+  - MCSDKMaterialPlugin (1.1.0)
+  - MintegralAdSDK (8.1.3):
+    - MintegralAdSDK/BannerAd (= 8.1.3)
+    - MintegralAdSDK/BidBannerAd (= 8.1.3)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 8.1.3)
+    - MintegralAdSDK/BidNativeAd (= 8.1.3)
+    - MintegralAdSDK/BidNewInterstitialAd (= 8.1.3)
+    - MintegralAdSDK/BidRewardVideoAd (= 8.1.3)
+    - MintegralAdSDK/InterstitialVideoAd (= 8.1.3)
+    - MintegralAdSDK/NativeAd (= 8.1.3)
+    - MintegralAdSDK/NewInterstitialAd (= 8.1.3)
+    - MintegralAdSDK/RewardVideoAd (= 8.1.3)
+  - MintegralAdSDK/All (8.1.3):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/NewInterstitialAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/BannerAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (8.1.3):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (8.1.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (8.1.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (8.1.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/BidSplashAd (8.1.3):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/InterstitialVideoAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (8.1.3)
+  - MintegralAdSDK/NativeAdvancedAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (8.1.3):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (8.1.3):
+    - MintegralAdSDK/NativeAd
+  - MolocoSDKiOS (4.8.0)
+  - myTargetSDK (5.43.0):
+    - myTrackerSDK (~> 3.4.2)
+  - myTrackerSDK (3.4.2)
+  - OMSDK_Appodeal/Static (1.6.3)
+  - SmartdigimktSDK (6.5.75)
+  - TPNiOS (6.5.73):
+    - TPNiOS/TPNSDK (= 6.5.73)
+  - TPNiOS/TPNSDK (6.5.73)
+  - TPNMediationAdmobAdapter (13.4.0.2.0):
+    - Google-Mobile-Ads-SDK (= 13.4.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationAdxSmartdigimktAdapter (6.5.75.2.0):
+    - SmartdigimktSDK (= 6.5.75)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationApplovinAdapter (13.6.0.2.1):
+    - AppLovinSDK (= 13.6.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationBidMachineAdapter (3.7.1.2.1):
+    - BidMachine (= 3.7.1)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationBigoAdapter (5.2.0.2.0):
+    - BigoADS (= 5.2.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationChartboostAdapter (9.11.0.2.0):
+    - ChartboostCoreSDK (= 1.1.0)
+    - ChartboostMediationAdapterChartboost (= 5.9.11.0.0)
+    - ChartboostMediationSDK (= 5.4.0)
+    - ChartboostSDK (= 9.11.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationFacebookAdapter (6.21.1.2.0):
+    - FBAudienceNetwork (= 6.21.1)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationFyberAdapter (8.4.7.2.0):
+    - Fyber_Marketplace_SDK (= 8.4.7)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationInmobiAdapter (11.1.1.2.0):
+    - InMobiSDK (= 11.1.1)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationIronSourceAdapter (9.3.0.0.2.0):
+    - IronSourceSDK/Ads (= 9.3.0.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationMintegralAdapter (8.1.3.2.1):
+    - MintegralAdSDK/All (= 8.1.3)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationMolocoAdapter (4.8.0.2.0):
+    - MolocoSDKiOS (= 4.8.0)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationPangleAdapter (8.1.0.6.2.0):
+    - Ads-Global (= 8.1.0.6)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationPubNativeAdapter (3.8.1.2.0):
+    - HyBid (= 3.8.1)
+    - TPNiOS (>= 6.5.60)
+  - TPNMediationUnityAdsAdapter (4.17.0.2.0):
+    - TPNiOS (>= 6.5.60)
+    - UnityAds (= 4.17.0)
+  - TPNMediationVungleAdapter (7.7.1.2.0):
+    - TPNiOS (>= 6.5.60)
+    - VungleAds (= 7.7.1)
+  - TPNMediationYandexAdapter (8.2.0.2.0):
+    - TPNiOS (>= 6.5.60)
+    - YandexMobileAds (= 8.2.0)
+    - YandexMobileAdsInstream (= 0.72.0)
+  - UnityAds (4.17.0)
+  - VungleAds (7.7.1)
+  - YandexMobileAds (8.2.0):
+    - AppMetricaAdSupport (~> 6.4.0)
+    - AppMetricaCore (~> 6.4.0)
+    - AppMetricaIDSync (~> 6.4.0)
+    - AppMetricaLibraryAdapter (~> 6.4.0)
+  - YandexMobileAdsInstream (0.72.0):
+    - YandexMobileAds (= 8.2.0)
+
+DEPENDENCIES:
+  - AppLovinMediationBidMachineAdapter (= 3.7.1.0.0)
+  - AppLovinMediationBigoAdsAdapter (= 5.2.0.0)
+  - AppLovinMediationByteDanceAdapter (= 8.1.0.6.0)
+  - AppLovinMediationChartboostAdapter (= 9.11.0.0)
+  - AppLovinMediationFacebookAdapter (= 6.21.1.0)
+  - AppLovinMediationFyberAdapter (= 8.4.7.0)
+  - AppLovinMediationGoogleAdapter (= 13.4.0.0)
+  - AppLovinMediationGoogleAdManagerAdapter (= 13.4.0.0)
+  - AppLovinMediationInMobiAdapter (= 11.1.1.0)
+  - AppLovinMediationIronSourceAdapter (= 9.3.0.0.0)
+  - AppLovinMediationLineAdapter (= 3.0.1.0)
+  - AppLovinMediationMintegralAdapter (= 8.1.3.0.0)
+  - AppLovinMediationMolocoAdapter (= 4.8.0.0)
+  - AppLovinMediationMyTargetAdapter (= 5.43.0.0)
+  - AppLovinMediationUnityAdsAdapter (= 4.17.0.0)
+  - AppLovinMediationVerveAdapter (= 3.8.1.0)
+  - AppLovinMediationVungleAdapter (= 7.7.1.0)
+  - AppLovinMediationYandexAdapter (= 8.2.0.0)
+  - Flutter (from `Flutter`)
+  - GoogleMobileAdsMediationAppLovin (= 13.6.0.0)
+  - GoogleMobileAdsMediationChartboost (= 9.11.0.3)
+  - GoogleMobileAdsMediationFacebook (= 6.21.1.1.1)
+  - GoogleMobileAdsMediationFyber (= 8.4.7.1.1)
+  - GoogleMobileAdsMediationInMobi (= 11.1.1.1)
+  - GoogleMobileAdsMediationIronSource (= 9.3.0.0.1)
+  - GoogleMobileAdsMediationLine (= 3.0.1.2)
+  - GoogleMobileAdsMediationMintegral (= 8.1.3.0)
+  - GoogleMobileAdsMediationMyTarget (= 5.43.0.0.1)
+  - GoogleMobileAdsMediationPangle (= 8.1.0.6.0)
+  - GoogleMobileAdsMediationUnity (= 4.17.0.0)
+  - GoogleMobileAdsMediationVungle (= 7.7.1.0)
+  - HyperbidToolsMCAdmobAdapter (= 13.4.0.0)
+  - HyperbidToolsMCMaxAdapter (= 13.6.0.2)
+  - HyperbidToolsMCSDK (= 3.9.10)
+  - HyperbidToolsMCToponAdapter (= 6.5.73.0)
+  - mc_sdk (from `.symlinks/plugins/mc_sdk/ios`)
+  - MCSDKMaterialPlugin (= 1.1.0)
+  - TPNMediationAdmobAdapter (= 13.4.0.2.0)
+  - TPNMediationAdxSmartdigimktAdapter (= 6.5.75.2.0)
+  - TPNMediationApplovinAdapter (= 13.6.0.2.1)
+  - TPNMediationBidMachineAdapter (= 3.7.1.2.1)
+  - TPNMediationBigoAdapter (= 5.2.0.2.0)
+  - TPNMediationChartboostAdapter (= 9.11.0.2.0)
+  - TPNMediationFacebookAdapter (= 6.21.1.2.0)
+  - TPNMediationFyberAdapter (= 8.4.7.2.0)
+  - TPNMediationInmobiAdapter (= 11.1.1.2.0)
+  - TPNMediationIronSourceAdapter (= 9.3.0.0.2.0)
+  - TPNMediationMintegralAdapter (= 8.1.3.2.1)
+  - TPNMediationMolocoAdapter (= 4.8.0.2.0)
+  - TPNMediationPangleAdapter (= 8.1.0.6.2.0)
+  - TPNMediationPubNativeAdapter (= 3.8.1.2.0)
+  - TPNMediationUnityAdsAdapter (= 4.17.0.2.0)
+  - TPNMediationVungleAdapter (= 7.7.1.2.0)
+  - TPNMediationYandexAdapter (= 8.2.0.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Ads-Global
+    - AppLovinMediationBidMachineAdapter
+    - AppLovinMediationBigoAdsAdapter
+    - AppLovinMediationByteDanceAdapter
+    - AppLovinMediationChartboostAdapter
+    - AppLovinMediationFacebookAdapter
+    - AppLovinMediationFyberAdapter
+    - AppLovinMediationGoogleAdapter
+    - AppLovinMediationGoogleAdManagerAdapter
+    - AppLovinMediationInMobiAdapter
+    - AppLovinMediationIronSourceAdapter
+    - AppLovinMediationLineAdapter
+    - AppLovinMediationMintegralAdapter
+    - AppLovinMediationMolocoAdapter
+    - AppLovinMediationMyTargetAdapter
+    - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVerveAdapter
+    - AppLovinMediationVungleAdapter
+    - AppLovinMediationYandexAdapter
+    - AppLovinSDK
+    - AppMetricaAdSupport
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaIdentifiers
+    - AppMetricaIDSync
+    - AppMetricaKeychain
+    - AppMetricaLibraryAdapter
+    - AppMetricaLog
+    - AppMetricaLogSwift
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - AppMetricaSynchronization
+    - ATOM-Standalone
+    - BidMachine
+    - BigoADS
+    - ChartboostCoreSDK
+    - ChartboostMediationAdapterChartboost
+    - ChartboostMediationSDK
+    - ChartboostSDK
+    - FBAudienceNetwork
+    - FiveAd
+    - Fyber_Marketplace_SDK
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationChartboost
+    - GoogleMobileAdsMediationFacebook
+    - GoogleMobileAdsMediationFyber
+    - GoogleMobileAdsMediationInMobi
+    - GoogleMobileAdsMediationIronSource
+    - GoogleMobileAdsMediationLine
+    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationMyTarget
+    - GoogleMobileAdsMediationPangle
+    - GoogleMobileAdsMediationUnity
+    - GoogleMobileAdsMediationVungle
+    - GoogleUserMessagingPlatform
+    - HyBid
+    - HyperbidToolsMCAdmobAdapter
+    - HyperbidToolsMCMaxAdapter
+    - HyperbidToolsMCSDK
+    - HyperbidToolsMCToponAdapter
+    - InMobiSDK
+    - IronSourceAdQualitySDK
+    - IronSourceSDK
+    - MCSDKMaterialPlugin
+    - MintegralAdSDK
+    - MolocoSDKiOS
+    - myTargetSDK
+    - myTrackerSDK
+    - OMSDK_Appodeal
+    - SmartdigimktSDK
+    - TPNiOS
+    - TPNMediationAdmobAdapter
+    - TPNMediationAdxSmartdigimktAdapter
+    - TPNMediationApplovinAdapter
+    - TPNMediationBidMachineAdapter
+    - TPNMediationBigoAdapter
+    - TPNMediationChartboostAdapter
+    - TPNMediationFacebookAdapter
+    - TPNMediationFyberAdapter
+    - TPNMediationInmobiAdapter
+    - TPNMediationIronSourceAdapter
+    - TPNMediationMintegralAdapter
+    - TPNMediationMolocoAdapter
+    - TPNMediationPangleAdapter
+    - TPNMediationPubNativeAdapter
+    - TPNMediationUnityAdsAdapter
+    - TPNMediationVungleAdapter
+    - TPNMediationYandexAdapter
+    - UnityAds
+    - VungleAds
+    - YandexMobileAds
+    - YandexMobileAdsInstream
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mc_sdk:
+    :path: ".symlinks/plugins/mc_sdk/ios"
+
+SPEC CHECKSUMS:
+  Ads-Global: 928e2669595256b915df04a4a2f299d3bb8fe6b7
+  AppLovinMediationBidMachineAdapter: 255d7797b4024f1efa9bba5a3ff75d65f07936f6
+  AppLovinMediationBigoAdsAdapter: 1281ea9244b200ec23f2d2fd76689298eb0208d2
+  AppLovinMediationByteDanceAdapter: 1e825f50e7dabb76fb60fe9e8d20140e2a31881c
+  AppLovinMediationChartboostAdapter: 2aecd2df335d6122764f66498eec3be2090de953
+  AppLovinMediationFacebookAdapter: b962c9d82620bfb9ee53909aa9856d642e1f84db
+  AppLovinMediationFyberAdapter: 0d386d13531e8e5be5421f76572e90779cab0ae1
+  AppLovinMediationGoogleAdapter: 7be93c0853082ca3537edbc9032fe85d4214169b
+  AppLovinMediationGoogleAdManagerAdapter: 1301f94fcb2060336a5accc41765f8f091bce54c
+  AppLovinMediationInMobiAdapter: 2ec313f489e04ea6ed4ef47dd2cdfae64b675aad
+  AppLovinMediationIronSourceAdapter: 4ed9f6ceca6e74f7a450c058826e970f6d24e9e1
+  AppLovinMediationLineAdapter: 535ff3db8ecc9043ea8579355f417a21e27e01f3
+  AppLovinMediationMintegralAdapter: 342436f82c32758d2a83cc8eba4277bb17d7cbb3
+  AppLovinMediationMolocoAdapter: 40d6195a3482c3753485b6c9e96e94773d9ec363
+  AppLovinMediationMyTargetAdapter: f811352f124d57e17af7ea17581d8ab503e70cef
+  AppLovinMediationUnityAdsAdapter: 23afa95da0fc9c02c868f583a682d95811447bf4
+  AppLovinMediationVerveAdapter: d4da046207e3d437a2426248efd09700e5168115
+  AppLovinMediationVungleAdapter: fc35519fbe9b3860d3d46ec69b0f0a090ff593a8
+  AppLovinMediationYandexAdapter: ee074fb6ba4632dd79c09c3db0d3760dcaa67983
+  AppLovinSDK: c516661fbeb9d7ba1ec8c10c8da60581178a6204
+  AppMetricaAdSupport: ea23f33e8b0bb57e10e886b5a65efe7f02ad239f
+  AppMetricaCore: 99c37d879a2e69e40088e5c635813e9197cfb891
+  AppMetricaCoreExtension: ee51434c534ca25c9ae5e4196ea4bd88419759b3
+  AppMetricaCoreUtils: 951123923c812c627f783417f14a3d15916889ba
+  AppMetricaEncodingUtils: 4b8db07fe94c474e1beb6df1d954a1915f21696f
+  AppMetricaFMDB: 6e949aacc54d39175330c31fa35bce3f6d4afeac
+  AppMetricaHostState: 71f98942c99e4166d20978c75c813ab78907499c
+  AppMetricaIdentifiers: b42308e6778ad956eebbcdb532639051b4a54ea1
+  AppMetricaIDSync: ab1f62f3b29da6932e7c987d89567739438fc832
+  AppMetricaKeychain: 2bcc57fd0c8b0e79da9ebe9d7a8804d45becbdff
+  AppMetricaLibraryAdapter: 57f8c15451ef90c4d1d210a5b3cf392becdff0ca
+  AppMetricaLog: 8ef1971da84f1b10a4503079fef9dea0f8cda270
+  AppMetricaLogSwift: 338c9fd1ea2cd1536c5a11221246ae4d3e4dba0f
+  AppMetricaNetwork: bb729a17ec9fadeae17f146c188337c16000033d
+  AppMetricaPlatform: 51c6b3436bc40ce48a0392c966b36d13dee0292c
+  AppMetricaProtobuf: d552755f58da50a4fbb131a36240cb5da85462fd
+  AppMetricaProtobufUtils: 2c5e713d57a94fe8593fc4795743f36206965251
+  AppMetricaStorageUtils: 4863b179644a94e0380eca35c4d8b32d291092fd
+  AppMetricaSynchronization: 00b81ac18b35b82243316c5e872627d17ac4e060
+  ATOM-Standalone: cd8bed8eb43e48d0f2e778aa0db893cb7f8ceb93
+  BidMachine: b3eca96870e834eb74a2e9dec44f99d9b5d3b7c1
+  BigoADS: 137aba6421ada41f2610cff6a51fe223252a44d7
+  ChartboostCoreSDK: 8da12d56eeb98fe3a7f3b15f65580c0f85986834
+  ChartboostMediationAdapterChartboost: 44b46dfcc783e3dc51bb8a112225710f00fe0d94
+  ChartboostMediationSDK: 2ca0b624ce2a03ba4ad26c93fac3dca3d2336763
+  ChartboostSDK: 4c0411cb5b6cb3705fafb40936fec3aea2c789f2
+  FBAudienceNetwork: 85d18a65c9e35bc426bd4664cf3ae2a1172d7b60
+  FiveAd: febdd24752d269ddc9145788f27060e816c227c8
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  Fyber_Marketplace_SDK: 1a880b530921ddf07a74982e163ab56eaf90e932
+  Google-Mobile-Ads-SDK: 5aa7af5189af2c75d1c32868062cf3692f1376f9
+  GoogleMobileAdsMediationAppLovin: ef5ac8223f0c7ef439cb22ef4327892dc84e96a0
+  GoogleMobileAdsMediationChartboost: 7effa520783330c9349f499dd9cda2c22414fe87
+  GoogleMobileAdsMediationFacebook: 4420c648e278f6821001048d1f152dd74245f759
+  GoogleMobileAdsMediationFyber: d253d6eca1d019e998ece0eed7571bbf3f44a042
+  GoogleMobileAdsMediationInMobi: e45eb2d955605563c03c1ce20f595df944af74ac
+  GoogleMobileAdsMediationIronSource: 4a03683c00043c374bc6c43dcf640af129cf4c7b
+  GoogleMobileAdsMediationLine: 7bbf2b76eab020e0b2b21dfaa3cc2f0438e8f958
+  GoogleMobileAdsMediationMintegral: f8cf166f111224bbdecf576c4354ceb4b0a53c75
+  GoogleMobileAdsMediationMyTarget: dfa6a79d003e1a8f28b4731a9a8ab65bdea2db5f
+  GoogleMobileAdsMediationPangle: 48e4b8f45d8182b65376797651a7a9ced0d6a78a
+  GoogleMobileAdsMediationUnity: aa0eaab93dbb5d9a05526ef1778b5f0cdd861cf9
+  GoogleMobileAdsMediationVungle: df7b3962f0e9afab104f985a35153dfa4f0e9df8
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  HyBid: 7aa21ea81b74c7580e4193cd73350ebacee18ddd
+  HyperbidToolsMCAdmobAdapter: 7c83a3054a2b400a1d03e3ed154cf40c4bd42be3
+  HyperbidToolsMCMaxAdapter: 255d492dcf76852183b026d633078e0b03c89cfc
+  HyperbidToolsMCSDK: 003685e3d7a6c028923f6dc3669cc934e2cc4f79
+  HyperbidToolsMCToponAdapter: 2ce557bb0fe9f63ad4e096970243a8bc341ac81b
+  InMobiSDK: 4642fb34a961980ab94a1ac460c6e16e113498e6
+  IronSourceAdQualitySDK: 2a45fd35df68f6c03090e9c330f4efe64e70a9ff
+  IronSourceSDK: 5febe9a2c8c4eb4ac743dd0da492d2a6b69b5b7f
+  mc_sdk: bca31a8b79ab8f25979215d20e73110dc767b872
+  MCSDKMaterialPlugin: c2e5a74a74854dca89af0dacdcfc8555e699040b
+  MintegralAdSDK: 0858525ba50c372960c98cd0151921d69907d08d
+  MolocoSDKiOS: 329ac6a702974f2fb9c6ffd4a71de879fc345ac9
+  myTargetSDK: c4b8bfdd7c574fb83a67e722dc7d946bf116bf9a
+  myTrackerSDK: 1067f589db77b5374bf39d1e306667a455fa767e
+  OMSDK_Appodeal: e76e5c30dfd3081621a8cd393c45219edc84f1f2
+  SmartdigimktSDK: 6702ca42aad588b709b95bc32ddd80745fb68e8c
+  TPNiOS: 6b47fc94dce855128d9089f230c3094003139131
+  TPNMediationAdmobAdapter: f9113ad8c2ad9749af92ade9209537c601c55a6e
+  TPNMediationAdxSmartdigimktAdapter: 71ff6613dd23295b2e82dc405bb6b651d36a4be1
+  TPNMediationApplovinAdapter: a3a9306664e77036a8965e148c47e2ca8a072ca6
+  TPNMediationBidMachineAdapter: 38102b8c4a5d9a4623ec6b06bf782a149961a5e6
+  TPNMediationBigoAdapter: e0b0796057aef0b9b2f2c9ca97ef5ff385a32894
+  TPNMediationChartboostAdapter: abee508a6cbf5b526820baf730d2ef52d24598e9
+  TPNMediationFacebookAdapter: ff27846c59d26931073882d000f1fc8410e25e9f
+  TPNMediationFyberAdapter: d25324981c910a60787011b283fd645e63c41c81
+  TPNMediationInmobiAdapter: 7a53fab34e040a1d391dfcd2c071f706295f25a5
+  TPNMediationIronSourceAdapter: 0561f5165282345713bf66e999f547d8ad3afab8
+  TPNMediationMintegralAdapter: df2a09b9cb621827ee394926aa48aa95960a335d
+  TPNMediationMolocoAdapter: 13b4794b366693c5081d8bcd7570ce98c8002104
+  TPNMediationPangleAdapter: 036165a811c0d23ed3cf994c2867672bcbd4984d
+  TPNMediationPubNativeAdapter: 5a183ad4dbbe9cc1fcd4dffd29c3e25135cb89ee
+  TPNMediationUnityAdsAdapter: a1d8991a644713d3daeb0131926d1016bd0abf2c
+  TPNMediationVungleAdapter: 1d8ccbc31a0a36bab78407f960acb0d3910875b6
+  TPNMediationYandexAdapter: 13e82b241941c5632a18b4b0e8e0f32cce5b50e0
+  UnityAds: adbe0d522fd14b8298c5e159164fc43396165843
+  VungleAds: c1f0dd0d8531b200b9f6a3f78e292ded75540eae
+  YandexMobileAds: ca2d95c1a057ada5a2053ddeb04fbe8a72ef2a27
+  YandexMobileAdsInstream: 079e4dd2e31ea81aeaca429e196ef790d93cf866
+
+PODFILE CHECKSUM: d1657b78a20d82a91f3f75d5b8835c442d1558db
+
+COCOAPODS: 1.17.0

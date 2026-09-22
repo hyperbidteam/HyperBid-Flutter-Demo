@@ -1,0 +1,9 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// Override: Flutter's auto-generated Generated.xcconfig sets
+// EXCLUDED_ARCHS[sdk=iphonesimulator*] = "i386 arm64", forcing an x86_64-only
+// simulator build. macOS 14+ removed Rosetta translation for iPhoneSimulator,
+// so x86_64-only apps can no longer install on Apple Silicon simulators.
+// Keep i386 excluded (long obsolete) but allow arm64.
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = i386
